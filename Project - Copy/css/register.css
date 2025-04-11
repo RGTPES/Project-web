@@ -1,0 +1,65 @@
+input{
+    width: 80%;
+    height: 40px;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+.register-content{
+    border: #888888 1px solid;
+    box-shadow: 1px 2px 5px 0,1px #888888 !important;
+    border-radius: 5px;
+   margin-left: 450px;
+   margin-right: 450px;
+   margin-bottom: 55px;
+   
+    background-color: white;
+    
+}
+.register-container{
+    
+    height: 100%;
+    background-color: #f0f0f0;
+
+        width: 100%;
+    
+}
+body{
+    font-family: 'roboto', sans-serif !important;
+    height: 100%;
+}
+.register-header{
+    margin-top: 30px;
+}
+.register-btn{
+    width: 80%;
+    height: 40px;
+    background-color: #0D6EFD;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.register-name{
+    margin-top: 30px!important;
+}
+a{
+    text-decoration: none !important;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination button, .pagination span {
+    padding: 8px 15px;
+    border: 1px solid lightgray;
+}

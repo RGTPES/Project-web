@@ -1,0 +1,154 @@
+.body{
+    font-family: 'roboto', sans-serif !important;
+   
+        transform: scale(0.6) !important; 
+        transform-origin: top center !important; 
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem !important;
+    background-color: #212529;
+    color: white;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+
+}
+li{
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+
+}
+h2{
+    margin-left: 20px;
+    font-size: 30px;
+    color: white;
+}
+.fixTest-header{
+    margin-left: 200px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.fixTest-time{
+    display: flex;
+}
+.table-fixTest{
+    width: 60%;
+    margin-right: 110px;
+    margin-top: 30px;
+}
+
+.test-header-title{
+    
+    margin-left: 60px;
+    
+}
+.btn2{
+    width: 100px!important;
+    
+    
+}
+.btn1{
+    width: 150px!important;
+    
+    
+}
+.quiz-btn{
+    display: flex;
+    width: 75%;
+    justify-content: space-between
+}
+.id-fixTest,.action-fixTest{
+    background-color: #212529 !important;
+    color: white !important;
+}
+.name-fixTest{
+    text-align: start !important;
+    background-color: #212529 !important;
+    color: white !important;
+}
+a{
+    text-decoration: none;
+   color: white;
+}
+.fixTest-footer{
+    background-color: #212529;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    
+   
+}
+.fixTest-conten{
+    display: flex !important;
+   
+}
+th,td,tr{
+    border: gray 1px solid;
+}
+
+
+.current-page{
+    background-color: #0D6EFD !important;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination button, .pagination span {
+    padding: 8px 15px;
+    border: 1px solid lightgray;
+}
+
+.page-btn-prev{
+    border-radius: 4px 0px 0px 4px;
+    background-color: #ededed;
+    color: grey;
+    font-weight: bold;
+}
+.page-btn-next{
+    border-radius: 0px 4px 4px 0px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.pagination span {
+    background-color: #ffffff;
+    color: #007bff;
+    border: 1px solid #ddd;
+}
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fix-btn-test{
+    padding: 5px 5px;
+    border-radius: 5px;
+    color: black;
+    background-color: #FFC107;
+    border: none;
+}
+.del-btn-test{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #DC3545;
+    border: none;
+}
+
+
+
