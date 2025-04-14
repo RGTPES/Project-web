@@ -1,0 +1,141 @@
+.body{
+    font-family: 'roboto', sans-serif !important;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212529;
+    color: white;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+
+}
+li{
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+
+}
+h2{
+    margin-left: 20px;
+    font-size: 30px;
+    color: white;
+}
+.category-header{
+    margin-left: 100px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.category-header-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    font-size: 30px;
+    color: black;
+}
+.category-header-btn{
+    margin-left: 60px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+.category-conten{
+    display: flex !important;
+}
+th,td,tr{
+    border: gray 1px solid;
+}
+
+.id-category{
+    background-color: #212529 !important;
+    color: white !important;
+}
+.name-category{
+    text-align: start !important;
+    background-color: #212529 !important;
+    color: white !important;
+}
+.action-category{
+    background-color: #212529 !important;
+    color: white !important;
+}
+.table-ctg tbody tr:nth-child(odd) td {
+    background-color: white !important;
+}
+
+.table-ctg tbody tr:nth-child(even) td {
+    background-color: #DEE2E6 !important;
+}
+.category-footer{
+    background-color: #212529;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    
+   
+}
+.fix-btn-ctg{
+    padding: 5px 5px;
+    border-radius: 5px;
+    color: black;
+    background-color: #FFC107;
+    border: none;
+}
+.del-btn-ctg{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #DC3545;
+    border: none;
+}
+
+
+.current-page{
+    background-color: #0D6EFD !important;
+    color: white !important;
+}
+a{
+    color: white;
+    text-decoration: none;
+   
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination button, .pagination span {
+    padding: 8px 15px;
+    border: 1px solid lightgray;
+}
+
+.page-btn-prev{
+    border-radius: 4px 0px 0px 4px;
+    background-color: #ededed;
+    color: grey;
+    font-weight: bold;
+}
+.page-btn-next{
+    border-radius: 0px 4px 4px 0px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.pagination span {
+    background-color: #ffffff;
+    color: #007bff;
+    border: 1px solid #ddd;
+}
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

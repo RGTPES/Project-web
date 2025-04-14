@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/test-mng.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- nav -->
+     <div class="nav">
+        <h2>QuizForge</h2>
+        <ul class="nav-list">
+            <li><a href="./category-mng.html">Danh Mục</a></li>
+            <li><a href="#">Bài Test</a></li>
+            <li><a href="./login.html">Đăng xuất</a></li>
+        </ul>
+     </div>
+     <!-- header -->
+      <div class="test-header">
+        <h3 class="test-header-title">Quản lý Test</h3>
+        <div class="add-test">
+           <button class="btn btn-primary test-header-btn"><a href="./addTest.html?">Thêm bài test</a></button> 
+           <div class="sort-test d-flex h-50 ">
+            <div class="sort-test d-flex h-50 gap-2">
+              <select name="sort" id="sort" class="form-select">
+                  <option value="default">Sắp xếp theo</option>
+                  <option value="Name">Sắp xếp theo tên tăng dần</option>
+                  <option value="Name2">Sắp xếp theo tên giảm dần</option>
+                  <option value="Time">Sắp xếp theo thời gian tăng dần</option>
+                  <option value="Time2">Sắp xếp theo thời gian giảm dần</option>
+              </select>
+              <input type="text" placeholder="Tìm kiếm theo tên" id="search-test" class="form-control" required>
+          </div>
+          
+           </div>
+        </div>
+        
+      </div>
+      <!-- Content -->
+      <div class="test-content d-flex flex-column justify-content-center align-items-center text-center">
+        <table class="table-ctg table w-75 text-center">
+            <tr class="col">
+                <th class="id-test">ID</th>
+                <th class="name-test">Tên bài test</th>
+                <th class="category-test">Danh mục</th>
+                <th class="question-test">Số cấu hỏi</th>
+                <th class="time-test">Thời gian</th>
+                <th class="action-test d-flex justify-content-center">Hành động</th>
+
+
+            </tr>
+            <tbody id="tbody-test"></tbody>
+        </table>
+
+      </div>
+
+
+
+
+      <!-- page -->
+   
+    <div class="pagination">
+      <button class="page-btn-prev">&lt;</button>
+      <div class="pagination-container" id="pagination-container">
+      </div>
+      <button class="page-btn-next">&gt;</button>
+  </div>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- footer -->
+    <div class="test-footer d-flex justify-content-center align-items-center ">
+        <p class="m-1">	&copy;2025 QuizForge.All right reserved</p>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+   <!-- modal delete -->
+   <div class="modal fade" id="delete" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Xác nhận xoá</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Bạn có chắc chắn muốn xóa bài test này không?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Huỷ</button>
+          <button type="button" class="btn btn-primary bg-danger" onclick="delTest()"data-bs-dismiss="modal">Xoá</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="../js/test.js"></script>    
+</body>
+</html>
